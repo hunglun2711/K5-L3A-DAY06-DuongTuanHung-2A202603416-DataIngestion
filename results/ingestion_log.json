@@ -1,0 +1,32 @@
+{
+  "ran_at": "2026-11-13T11:53:02.580543+00:00",
+  "corpus_name": "OpenStax Introduction to Python Programming (4-Chapter Excerpt)",
+  "valid_content_pages": 41,
+  "excluded_pages_count": 3,
+  "excluded_pages": [
+    {
+      "document_id": "openstax-py-ch01",
+      "source": "starter/data/openstax_python_ch01_intro.pdf",
+      "page": 1,
+      "reason": "blank_page",
+      "char_count": 0
+    },
+    {
+      "document_id": "openstax-py-ch01",
+      "source": "starter/data/openstax_python_ch01_intro.pdf",
+      "page": 2,
+      "reason": "cover_or_title_page",
+      "char_count": 205
+    },
+    {
+      "document_id": "openstax-py-ch01",
+      "source": "starter/data/openstax_python_ch01_intro.pdf",
+      "page": 3,
+      "reason": "table_of_contents",
+      "char_count": 755
+    }
+  ],
+  "errors_count": 0,
+  "errors": [],
+  "total_normalized_chars": 53827
+}

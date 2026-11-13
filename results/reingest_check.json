@@ -1,0 +1,6 @@
+{
+  "strategy_tested": "A",
+  "count_before_reingest": 135,
+  "count_after_reingest": 135,
+  "no_duplicates": true
+}

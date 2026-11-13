@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-11-13T11:53:02.803117+00:00",
+  "python_version": "3.14.4",
+  "os": "Windows-10-10.0.19045-SP0",
+  "embedding_provider": "OpenRouter",
+  "embedding_model": "openai/text-embedding-3-small",
+  "embedding_dimensions": 1536,
+  "vector_store_backend": "qdrant-local",
+  "distance_metric": "Cosine",
+  "search_mode": "exact",
+  "storage_location": "D:\\K5-L3A-DAY06-DuongTuanHung-2A202603416-DataIngestion\\starter\\qdrant_storage",
+  "docker_pgvector_fallback_reason": "Docker Desktop Linux engine failed with Wsl/WSL_E_WSL_OPTIONAL_COMPONENT_REQUIRED (500 Internal Server Error on dockerDesktopLinuxEngine pipe because Windows WSL optional component is not enabled). Switched to persistent local QdrantVectorStore per GUIDE.md/RULES.md."
+}

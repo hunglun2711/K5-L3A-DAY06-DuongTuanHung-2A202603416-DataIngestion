@@ -1,4 +1,4 @@
 strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+A,fixed_size,500,50,"document_id,source,page,section,chapter,year,license",none,openai/text-embedding-3-small (1536d) via OpenRouter,"Baseline cat cua so co dinh 500 ky tu de bi dut giua cau/doan va lam mat ngu canh.",9/18 (50.0%),13/18 (72.2%),3/6 (50.0%),4/6 (66.7%),"135 chunks; 3 dev + 2 test split_evidence_warnings; coherence 0.00/2; grounding 1.67/2; intrinsic $0.00030254"
+B,by_paragraph,800,0,"document_id,source,page,section,chapter,year,license",none,openai/text-embedding-3-small (1536d) via OpenRouter,"Chia theo heading va doan van (<=800 ky tu) giup giu tron y, giam dut bang chung va tang Hit@3.",10/18 (55.6%),15/18 (83.3%),5/6 (83.3%),5/6 (83.3%),"95 chunks; 0 split_evidence_warnings; coherence 1.80/2; grounding 1.83/2; intrinsic $0.00027898"
+C,by_paragraph,800,0,"document_id,source,page,section,chapter,year,license",section (khi cau hoi co filter),openai/text-embedding-3-small (1536d) via OpenRouter,"Giu nguyen chunk cua B nhung ap dung metadata filter section de loai bo nhieu xuyen chuong trong top-3.",10/18 (55.6%),15/18 (83.3%),5/6 (83.3%),5/6 (83.3%),"95 chunks; filter compliance 4/4 dev va 2/2 test; loai nhieu xuyen chuong o q23/q24; coherence 1.80/2; grounding 1.83/2"

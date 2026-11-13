@@ -1,0 +1,239 @@
+{
+  "verified_at": "2026-11-13T11:17:19.608235+00:00",
+  "total_questions": 24,
+  "dev_count": 18,
+  "test_count": 6,
+  "filter_count": 6,
+  "test_filter_count": 2,
+  "all_evidence_verified": true,
+  "checks": [
+    {
+      "id": "q01",
+      "split": "dev",
+      "type": "direct",
+      "gold_source_id": "openstax-py-ch01",
+      "gold_page": 8,
+      "filter": null,
+      "verified_in_normalized_page": true
+    },
+    {
+      "id": "q02",
+      "split": "dev",
+      "type": "paraphrase",
+      "gold_source_id": "openstax-py-ch01",
+      "gold_page": 6,
+      "filter": null,
+      "verified_in_normalized_page": true
+    },
+    {
+      "id": "q03",
+      "split": "dev",
+      "type": "conditional_exception",
+      "gold_source_id": "openstax-py-ch01",
+      "gold_page": 12,
+      "filter": null,
+      "verified_in_normalized_page": true
+    },
+    {
+      "id": "q04",
+      "split": "dev",
+      "type": "metadata_filter",
+      "gold_source_id": "openstax-py-ch01",
+      "gold_page": 9,
+      "filter": {
+        "section": "ch01_statements_variables"
+      },
+      "verified_in_normalized_page": true
+    },
+    {
+      "id": "q05",
+      "split": "dev",
+      "type": "conditional_exception",
+      "gold_source_id": "openstax-py-ch01",
+      "gold_page": 13,
+      "filter": null,
+      "verified_in_normalized_page": true
+    },
+    {
+      "id": "q06",
+      "split": "dev",
+      "type": "direct",
+      "gold_source_id": "openstax-py-ch03",
+      "gold_page": 2,
+      "filter": null,
+      "verified_in_normalized_page": true
+    },
+    {
+      "id": "q07",
+      "split": "dev",
+      "type": "direct",
+      "gold_source_id": "openstax-py-ch03",
+      "gold_page": 7,
+      "filter": null,
+      "verified_in_normalized_page": true
+    },
+    {
+      "id": "q08",
+      "split": "dev",
+      "type": "metadata_filter",
+      "gold_source_id": "openstax-py-ch03",
+      "gold_page": 10,
+      "filter": {
+        "section": "ch03_data_types"
+      },
+      "verified_in_normalized_page": true
+    },
+    {
+      "id": "q09",
+      "split": "dev",
+      "type": "paraphrase",
+      "gold_source_id": "openstax-py-ch03",
+      "gold_page": 2,
+      "filter": null,
+      "verified_in_normalized_page": true
+    },
+    {
+      "id": "q10",
+      "split": "dev",
+      "type": "direct",
+      "gold_source_id": "openstax-py-ch03",
+      "gold_page": 4,
+      "filter": null,
+      "verified_in_normalized_page": true
+    },
+    {
+      "id": "q11",
+      "split": "dev",
+      "type": "conditional_exception",
+      "gold_source_id": "openstax-py-ch04",
+      "gold_page": 3,
+      "filter": null,
+      "verified_in_normalized_page": true
+    },
+    {
+      "id": "q12",
+      "split": "dev",
+      "type": "metadata_filter",
+      "gold_source_id": "openstax-py-ch04",
+      "gold_page": 5,
+      "filter": {
+        "section": "ch04_branching"
+      },
+      "verified_in_normalized_page": true
+    },
+    {
+      "id": "q13",
+      "split": "dev",
+      "type": "conditional_exception",
+      "gold_source_id": "openstax-py-ch04",
+      "gold_page": 6,
+      "filter": null,
+      "verified_in_normalized_page": true
+    },
+    {
+      "id": "q14",
+      "split": "dev",
+      "type": "paraphrase",
+      "gold_source_id": "openstax-py-ch04",
+      "gold_page": 8,
+      "filter": null,
+      "verified_in_normalized_page": true
+    },
+    {
+      "id": "q15",
+      "split": "dev",
+      "type": "direct",
+      "gold_source_id": "openstax-py-ch04",
+      "gold_page": 10,
+      "filter": null,
+      "verified_in_normalized_page": true
+    },
+    {
+      "id": "q16",
+      "split": "dev",
+      "type": "metadata_filter",
+      "gold_source_id": "openstax-py-ch05",
+      "gold_page": 3,
+      "filter": {
+        "section": "ch05_loops"
+      },
+      "verified_in_normalized_page": true
+    },
+    {
+      "id": "q17",
+      "split": "dev",
+      "type": "conditional_exception",
+      "gold_source_id": "openstax-py-ch05",
+      "gold_page": 6,
+      "filter": null,
+      "verified_in_normalized_page": true
+    },
+    {
+      "id": "q18",
+      "split": "dev",
+      "type": "paraphrase",
+      "gold_source_id": "openstax-py-ch05",
+      "gold_page": 8,
+      "filter": null,
+      "verified_in_normalized_page": true
+    },
+    {
+      "id": "q19",
+      "split": "test",
+      "type": "paraphrase",
+      "gold_source_id": "openstax-py-ch01",
+      "gold_page": 6,
+      "filter": null,
+      "verified_in_normalized_page": true
+    },
+    {
+      "id": "q20",
+      "split": "test",
+      "type": "direct",
+      "gold_source_id": "openstax-py-ch03",
+      "gold_page": 1,
+      "filter": null,
+      "verified_in_normalized_page": true
+    },
+    {
+      "id": "q21",
+      "split": "test",
+      "type": "conditional_exception",
+      "gold_source_id": "openstax-py-ch04",
+      "gold_page": 2,
+      "filter": null,
+      "verified_in_normalized_page": true
+    },
+    {
+      "id": "q22",
+      "split": "test",
+      "type": "direct",
+      "gold_source_id": "openstax-py-ch05",
+      "gold_page": 2,
+      "filter": null,
+      "verified_in_normalized_page": true
+    },
+    {
+      "id": "q23",
+      "split": "test",
+      "type": "metadata_filter",
+      "gold_source_id": "openstax-py-ch03",
+      "gold_page": 11,
+      "filter": {
+        "section": "ch03_data_types"
+      },
+      "verified_in_normalized_page": true
+    },
+    {
+      "id": "q24",
+      "split": "test",
+      "type": "metadata_filter",
+      "gold_source_id": "openstax-py-ch05",
+      "gold_page": 5,
+      "filter": {
+        "section": "ch05_loops"
+      },
+      "verified_in_normalized_page": true
+    }
+  ]
+}

@@ -1,0 +1,577 @@
+[
+  {
+    "document_id": "openstax-py-ch01",
+    "page": 4,
+    "chunks_by_strategy": {
+      "A": [
+        {
+          "chunk_id": "openstax-py-ch01_p04_fix_00",
+          "char_count": 499,
+          "text": "Figure 1.1 credit: Larissa Chu, CC BY 4.0\n\nChapter Outline\n\n1.1 Background\n\n1.2 Input/output\n\n1.3 Variables\n\n1.4 String basics\n\n1.5 Number basics\n\n1.6 Error messages\n\n1.7 Comments\n\n1.8 Why Python?\n\n1.9 Chapter summary\n\nIntroduction\n\nComputers and programs are everywhere in today's world. Programs affect many aspects of daily life and society as a whole. People depend on programs for communication, shopping, entertainment, health care, and countless other needs. Learning how to program computers"
+        },
+        {
+          "chunk_id": "openstax-py-ch01_p04_fix_01",
+          "char_count": 500,
+          "text": "ss other needs. Learning how to program computers opens the door to many careers and opportunities for building a better world. Programs consist of statements to be run one after the other. A statement describes some action to be carried out. The statement print(\"Good morning\") instructs Python to output the message \"Good morning\" to the user. The statement count = 0 instructs Python to assign the integer 0 to the variable count.\n\nThis chapter introduces statements for input and output, assignin"
+        },
+        {
+          "chunk_id": "openstax-py-ch01_p04_fix_02",
+          "char_count": 316,
+          "text": "troduces statements for input and output, assigning variables, and basic arithmetic. Making mistakes is a normal part of programming, and the chapter includes advice on understanding error messages.\n\nThe chapter ends with a short history of Python and discusses why Python has become so popular today.\n\nStatements\n\n1"
+        }
+      ],
+      "B": [
+        {
+          "chunk_id": "openstax-py-ch01_p04_para_00",
+          "char_count": 216,
+          "text": "Figure 1.1 credit: Larissa Chu, CC BY 4.0\n\nChapter Outline\n\n1.1 Background\n\n1.2 Input/output\n\n1.3 Variables\n\n1.4 String basics\n\n1.5 Number basics\n\n1.6 Error messages\n\n1.7 Comments\n1.8 Why Python?\n\n1.9 Chapter summary"
+        },
+        {
+          "chunk_id": "openstax-py-ch01_p04_para_01",
+          "char_count": 663,
+          "text": "Introduction\nComputers and programs are everywhere in today's world. Programs affect many aspects of daily life and society as a whole. People depend on programs for communication, shopping, entertainment, health care, and countless other needs. Learning how to program computers opens the door to many careers and opportunities for building a better world. Programs consist of statements to be run one after the other. A statement describes some action to be carried out. The statement print(\"Good morning\") instructs Python to output the message \"Good morning\" to the user. The statement count = 0 instructs Python to assign the integer 0 to the variable count."
+        },
+        {
+          "chunk_id": "openstax-py-ch01_p04_para_02",
+          "char_count": 346,
+          "text": "[Introduction] This chapter introduces statements for input and output, assigning variables, and basic arithmetic. Making mistakes is a normal part of programming, and the chapter includes advice on understanding error messages.\n\nThe chapter ends with a short history of Python and discusses why Python has become so popular today.\n\nStatements\n\n1"
+        }
+      ],
+      "C": [
+        {
+          "chunk_id": "openstax-py-ch01_p04_para_00",
+          "char_count": 216,
+          "text": "Figure 1.1 credit: Larissa Chu, CC BY 4.0\n\nChapter Outline\n\n1.1 Background\n\n1.2 Input/output\n\n1.3 Variables\n\n1.4 String basics\n\n1.5 Number basics\n\n1.6 Error messages\n\n1.7 Comments\n1.8 Why Python?\n\n1.9 Chapter summary"
+        },
+        {
+          "chunk_id": "openstax-py-ch01_p04_para_01",
+          "char_count": 663,
+          "text": "Introduction\nComputers and programs are everywhere in today's world. Programs affect many aspects of daily life and society as a whole. People depend on programs for communication, shopping, entertainment, health care, and countless other needs. Learning how to program computers opens the door to many careers and opportunities for building a better world. Programs consist of statements to be run one after the other. A statement describes some action to be carried out. The statement print(\"Good morning\") instructs Python to output the message \"Good morning\" to the user. The statement count = 0 instructs Python to assign the integer 0 to the variable count."
+        },
+        {
+          "chunk_id": "openstax-py-ch01_p04_para_02",
+          "char_count": 346,
+          "text": "[Introduction] This chapter introduces statements for input and output, assigning variables, and basic arithmetic. Making mistakes is a normal part of programming, and the chapter includes advice on understanding error messages.\n\nThe chapter ends with a short history of Python and discusses why Python has become so popular today.\n\nStatements\n\n1"
+        }
+      ]
+    }
+  },
+  {
+    "document_id": "openstax-py-ch01",
+    "page": 5,
+    "chunks_by_strategy": {
+      "A": [
+        {
+          "chunk_id": "openstax-py-ch01_p05_fix_00",
+          "char_count": 500,
+          "text": "1.1 Background\n\nLearning Objectives\n\nBy the end of this section you should be able to\n\n• Name two examples of computer programs in everyday life.\n\n• Explain why Python is a good programming language to learn.\n\nComputer programs\n\nA computer is an electronic device that stores and processes information. Examples of computers include smartphones, tablets, laptops, desktops, and servers. Technically, a program is a sequence of instructions that a computer can run. Programs help people accomplish eve"
+        },
+        {
+          "chunk_id": "openstax-py-ch01_p05_fix_01",
+          "char_count": 500,
+          "text": "puter can run. Programs help people accomplish everyday tasks, create new technology, and have fun.\n\nThe goal of this book is to teach introductory programming and problem solving. Writing programs is a creative activity, inherently useful, and rewarding! No prior background in computer science is necessary to read this book. Many different types of programs exist, as shown in the illustration below. This book will focus on general purpose programs that typically run \"behind the scenes.\"\n\nCHECKP"
+        },
+        {
+          "chunk_id": "openstax-py-ch01_p05_fix_02",
+          "char_count": 500,
+          "text": "ms that typically run \"behind the scenes.\"\n\nCHECKPOINT\n\nOnline music streaming\n\nOnline music streaming; ch 1, video 1 (https://www.openstax.org/r/music-streaming)\n\nCONCEPTS IN PRACTICE\n\nComputers and programs\n\n1 . How many types of programs were described in the animation?\n\na. 3\n\nb. 4\n\nc. 5\n\n2 . What type of program will this book explain how to write?\n\na. a tool that summarizes an individual's music preferences\n\nb. a mobile app for managing and sharing playlists of songs\n\nc. a website that show"
+        },
+        {
+          "chunk_id": "openstax-py-ch01_p05_fix_03",
+          "char_count": 499,
+          "text": "sharing playlists of songs\n\nc. a website that shows the top artists for the past five years\n\n3 . Which of the following devices is an example of a computer?\n\na. wired headphones that plug into a smartphone\n\nb. remote control that pauses or skips the current song\n\nc. wi-fi speaker that streams music from Amazon\n\n4 . Reading this book requires a strong background in mathematics.\n\na. true\n\nb. false\n\nEXPLORING FURTHER\n\nLater chapters of this book show how to write analysis programs using real data."
+        },
+        {
+          "chunk_id": "openstax-py-ch01_p05_fix_04",
+          "char_count": 72,
+          "text": "w how to write analysis programs using real data. Example libraries that"
+        }
+      ],
+      "B": [
+        {
+          "chunk_id": "openstax-py-ch01_p05_para_00",
+          "char_count": 547,
+          "text": "1.1 Background\n\nLearning Objectives\n\nBy the end of this section you should be able to\n• Name two examples of computer programs in everyday life.\n\n• Explain why Python is a good programming language to learn.\n\nComputer programs\nA computer is an electronic device that stores and processes information. Examples of computers include smartphones, tablets, laptops, desktops, and servers. Technically, a program is a sequence of instructions that a computer can run. Programs help people accomplish everyday tasks, create new technology, and have fun."
+        },
+        {
+          "chunk_id": "openstax-py-ch01_p05_para_01",
+          "char_count": 782,
+          "text": "[Computer programs] The goal of this book is to teach introductory programming and problem solving. Writing programs is a creative activity, inherently useful, and rewarding! No prior background in computer science is necessary to read this book. Many different types of programs exist, as shown in the illustration below. This book will focus on general purpose programs that typically run \"behind the scenes.\"\n\nCHECKPOINT\n\nOnline music streaming\nOnline music streaming; ch 1, video 1 (https://www.openstax.org/r/music-streaming)\n\nCONCEPTS IN PRACTICE\n\nComputers and programs\n1 . How many types of programs were described in the animation?\n\na. 3\n\nb. 4\n\nc. 5\n\n2 . What type of program will this book explain how to write?\n\na. a tool that summarizes an individual's music preferences"
+        },
+        {
+          "chunk_id": "openstax-py-ch01_p05_para_02",
+          "char_count": 579,
+          "text": "[Computers and programs] b. a mobile app for managing and sharing playlists of songs\n\nc. a website that shows the top artists for the past five years\n\n3 . Which of the following devices is an example of a computer?\n\na. wired headphones that plug into a smartphone\n\nb. remote control that pauses or skips the current song\n\nc. wi-fi speaker that streams music from Amazon\n\n4 . Reading this book requires a strong background in mathematics.\n\na. true\n\nb. false\n\nEXPLORING FURTHER\nLater chapters of this book show how to write analysis programs using real data. Example libraries that"
+        }
+      ],
+      "C": [
+        {
+          "chunk_id": "openstax-py-ch01_p05_para_00",
+          "char_count": 547,
+          "text": "1.1 Background\n\nLearning Objectives\n\nBy the end of this section you should be able to\n• Name two examples of computer programs in everyday life.\n\n• Explain why Python is a good programming language to learn.\n\nComputer programs\nA computer is an electronic device that stores and processes information. Examples of computers include smartphones, tablets, laptops, desktops, and servers. Technically, a program is a sequence of instructions that a computer can run. Programs help people accomplish everyday tasks, create new technology, and have fun."
+        },
+        {
+          "chunk_id": "openstax-py-ch01_p05_para_01",
+          "char_count": 782,
+          "text": "[Computer programs] The goal of this book is to teach introductory programming and problem solving. Writing programs is a creative activity, inherently useful, and rewarding! No prior background in computer science is necessary to read this book. Many different types of programs exist, as shown in the illustration below. This book will focus on general purpose programs that typically run \"behind the scenes.\"\n\nCHECKPOINT\n\nOnline music streaming\nOnline music streaming; ch 1, video 1 (https://www.openstax.org/r/music-streaming)\n\nCONCEPTS IN PRACTICE\n\nComputers and programs\n1 . How many types of programs were described in the animation?\n\na. 3\n\nb. 4\n\nc. 5\n\n2 . What type of program will this book explain how to write?\n\na. a tool that summarizes an individual's music preferences"
+        },
+        {
+          "chunk_id": "openstax-py-ch01_p05_para_02",
+          "char_count": 579,
+          "text": "[Computers and programs] b. a mobile app for managing and sharing playlists of songs\n\nc. a website that shows the top artists for the past five years\n\n3 . Which of the following devices is an example of a computer?\n\na. wired headphones that plug into a smartphone\n\nb. remote control that pauses or skips the current song\n\nc. wi-fi speaker that streams music from Amazon\n\n4 . Reading this book requires a strong background in mathematics.\n\na. true\n\nb. false\n\nEXPLORING FURTHER\nLater chapters of this book show how to write analysis programs using real data. Example libraries that"
+        }
+      ]
+    }
+  },
+  {
+    "document_id": "openstax-py-ch01",
+    "page": 6,
+    "chunks_by_strategy": {
+      "A": [
+        {
+          "chunk_id": "openstax-py-ch01_p06_fix_00",
+          "char_count": 500,
+          "text": "provide access to online streaming services include Spotipy (https://openstax.org/r/100spotipy), Pytube (https://openstax.org/r/100pytube), and Pydora (https://openstax.org/r/100pydora). Python-related tools often have the letters \"py\" in their name.\n\nThe Python language\n\nThis book introduces Python (https://openstax.org/r/100python), one of the top programming languages today. Leading tech giants like Google, Apple, NASA, Instagram, Pixar, and others use Python extensively.\n\nOne reason why Pyth"
+        },
+        {
+          "chunk_id": "openstax-py-ch01_p06_fix_01",
+          "char_count": 500,
+          "text": "thers use Python extensively.\n\nOne reason why Python is popular is because many libraries exist for doing real work. A library is a collection of code that can be used in other programs. Python comes with an extensive Standard Library (https://openstax.org/r/100pythlibrary) for solving everyday computing problems like extracting data from files and creating summary reports. In addition, the community develops many other libraries for Python. Ex: Pandas (https://openstax.org/r/100pandas) is a wid"
+        },
+        {
+          "chunk_id": "openstax-py-ch01_p06_fix_02",
+          "char_count": 500,
+          "text": "Pandas (https://openstax.org/r/100pandas) is a widely used library for data analysis.\n\nAnother reason why Python is popular is because the syntax is concise and straightforward. The syntax of a language defines how code must be structured. Syntax rules define the keywords, symbols, and formatting used in programs. Compared to other programming languages, Python is more concise and straightforward.\n\nEXAMPLE 1.1\n\nHello world in Python and Java\n\nBy tradition, Hello World (https://openstax.org/r/100"
+        },
+        {
+          "chunk_id": "openstax-py-ch01_p06_fix_03",
+          "char_count": 500,
+          "text": "tradition, Hello World (https://openstax.org/r/100helloworld) is the first program to write when learning a new language. This program simply displays the message \"Hello, World!\" to the user. The hello world program is only one line in Python: print(\"Hello, World!\") In contrast, the hello world program is five lines in Java (a different language).\n\npublic class Hello { public static void main(String[] args) { System.out.println(\"Hello, World!\"); } } However, conciseness is not the only considera"
+        },
+        {
+          "chunk_id": "openstax-py-ch01_p06_fix_04",
+          "char_count": 340,
+          "text": "} } However, conciseness is not the only consideration for which language is used. In different situations different languages may be more appropriate. Ex: Java is often used in Android development.\n\nCHECKPOINT\n\nCounting lines in a file\n\nCounting lines in a file; ch 1, video 2 (https://www.openstax.org/r/counting-lines) 1.1 • Background 9"
+        }
+      ],
+      "B": [
+        {
+          "chunk_id": "openstax-py-ch01_p06_para_00",
+          "char_count": 478,
+          "text": "provide access to online streaming services include Spotipy (https://openstax.org/r/100spotipy), Pytube (https://openstax.org/r/100pytube), and Pydora (https://openstax.org/r/100pydora). Python-related tools often have the letters \"py\" in their name.\n\nThe Python language\nThis book introduces Python (https://openstax.org/r/100python), one of the top programming languages today. Leading tech giants like Google, Apple, NASA, Instagram, Pixar, and others use Python extensively."
+        },
+        {
+          "chunk_id": "openstax-py-ch01_p06_para_01",
+          "char_count": 526,
+          "text": "[The Python language] One reason why Python is popular is because many libraries exist for doing real work. A library is a collection of code that can be used in other programs. Python comes with an extensive Standard Library (https://openstax.org/r/100pythlibrary) for solving everyday computing problems like extracting data from files and creating summary reports. In addition, the community develops many other libraries for Python. Ex: Pandas (https://openstax.org/r/100pandas) is a widely used library for data analysis."
+        },
+        {
+          "chunk_id": "openstax-py-ch01_p06_para_02",
+          "char_count": 733,
+          "text": "[The Python language] Another reason why Python is popular is because the syntax is concise and straightforward. The syntax of a language defines how code must be structured. Syntax rules define the keywords, symbols, and formatting used in programs. Compared to other programming languages, Python is more concise and straightforward.\n\nEXAMPLE 1.1\n\nHello world in Python and Java\nBy tradition, Hello World (https://openstax.org/r/100helloworld) is the first program to write when learning a new language. This program simply displays the message \"Hello, World!\" to the user. The hello world program is only one line in Python: print(\"Hello, World!\") In contrast, the hello world program is five lines in Java (a different language)."
+        },
+        {
+          "chunk_id": "openstax-py-ch01_p06_para_03",
+          "char_count": 471,
+          "text": "[Hello world in Python and Java] public class Hello { public static void main(String[] args) { System.out.println(\"Hello, World!\"); } } However, conciseness is not the only consideration for which language is used. In different situations different languages may be more appropriate. Ex: Java is often used in Android development.\n\nCHECKPOINT\n\nCounting lines in a file\nCounting lines in a file; ch 1, video 2 (https://www.openstax.org/r/counting-lines) 1.1 • Background 9"
+        }
+      ],
+      "C": [
+        {
+          "chunk_id": "openstax-py-ch01_p06_para_00",
+          "char_count": 478,
+          "text": "provide access to online streaming services include Spotipy (https://openstax.org/r/100spotipy), Pytube (https://openstax.org/r/100pytube), and Pydora (https://openstax.org/r/100pydora). Python-related tools often have the letters \"py\" in their name.\n\nThe Python language\nThis book introduces Python (https://openstax.org/r/100python), one of the top programming languages today. Leading tech giants like Google, Apple, NASA, Instagram, Pixar, and others use Python extensively."
+        },
+        {
+          "chunk_id": "openstax-py-ch01_p06_para_01",
+          "char_count": 526,
+          "text": "[The Python language] One reason why Python is popular is because many libraries exist for doing real work. A library is a collection of code that can be used in other programs. Python comes with an extensive Standard Library (https://openstax.org/r/100pythlibrary) for solving everyday computing problems like extracting data from files and creating summary reports. In addition, the community develops many other libraries for Python. Ex: Pandas (https://openstax.org/r/100pandas) is a widely used library for data analysis."
+        },
+        {
+          "chunk_id": "openstax-py-ch01_p06_para_02",
+          "char_count": 733,
+          "text": "[The Python language] Another reason why Python is popular is because the syntax is concise and straightforward. The syntax of a language defines how code must be structured. Syntax rules define the keywords, symbols, and formatting used in programs. Compared to other programming languages, Python is more concise and straightforward.\n\nEXAMPLE 1.1\n\nHello world in Python and Java\nBy tradition, Hello World (https://openstax.org/r/100helloworld) is the first program to write when learning a new language. This program simply displays the message \"Hello, World!\" to the user. The hello world program is only one line in Python: print(\"Hello, World!\") In contrast, the hello world program is five lines in Java (a different language)."
+        },
+        {
+          "chunk_id": "openstax-py-ch01_p06_para_03",
+          "char_count": 471,
+          "text": "[Hello world in Python and Java] public class Hello { public static void main(String[] args) { System.out.println(\"Hello, World!\"); } } However, conciseness is not the only consideration for which language is used. In different situations different languages may be more appropriate. Ex: Java is often used in Android development.\n\nCHECKPOINT\n\nCounting lines in a file\nCounting lines in a file; ch 1, video 2 (https://www.openstax.org/r/counting-lines) 1.1 • Background 9"
+        }
+      ]
+    }
+  },
+  {
+    "document_id": "openstax-py-ch01",
+    "page": 7,
+    "chunks_by_strategy": {
+      "A": [
+        {
+          "chunk_id": "openstax-py-ch01_p07_fix_00",
+          "char_count": 500,
+          "text": "CONCEPTS IN PRACTICE\n\nPython vs Java syntax\n\n5 . In general, Python programs are _____ than Java programs.\n\na. faster\n\nb. longer\n\nc. shorter\n\n6 . In the example programs above, what syntax required by Java is not required by Python?\n\na. semicolons\n\nb. parentheses\n\nc. quote marks\n\nFavorite song\n\nThe program below asks for your name and displays a friendly greeting. Run the program and see what happens. In the error message, EOF stands for End of File.\n\n• Many of the programs in this chapter expec"
+        },
+        {
+          "chunk_id": "openstax-py-ch01_p07_fix_01",
+          "char_count": 500,
+          "text": "ile.\n\n• Many of the programs in this chapter expect input from the user. Enter your name in the Input box below the code. Run the program again, and see what changes.\n\n• Copy the following lines to the end of the program: song = input() print(\"Cool! I like\", song, \"too.\") print(\"What is your favorite song?\") song = input() print(\"Cool! I like\", song, \"too.\")\n\n• The modified program reads two lines of input: name and song. Add your favorite song to the Input box below your name, and run the progr"
+        },
+        {
+          "chunk_id": "openstax-py-ch01_p07_fix_02",
+          "char_count": 500,
+          "text": "o the Input box below your name, and run the program again.\n\nThe next section of the book will explain how print() and input() work. Feel free to experiment with this code until you are ready to move on. Access multimedia content (http://openstax.org/books/introduction-python-programming/pages/ 1-1-background)\n\n1.2 Input/output\n\nLearning objectives\n\nBy the end of this section you should be able to\n\n• Display output using the print() function.\n\n• Obtain user input using the input() function.\n\nBas"
+        },
+        {
+          "chunk_id": "openstax-py-ch01_p07_fix_03",
+          "char_count": 280,
+          "text": "Obtain user input using the input() function.\n\nBasic output\n\nThe print() function displays output to the user. Output is the information or result produced by a program.\n\nThe sep and end options can be used to customize the output. Table 1.1 shows examples of sep and end.\n\nTRY IT"
+        }
+      ],
+      "B": [
+        {
+          "chunk_id": "openstax-py-ch01_p07_para_00",
+          "char_count": 614,
+          "text": "CONCEPTS IN PRACTICE\n\nPython vs Java syntax\n5 . In general, Python programs are _____ than Java programs.\n\na. faster\n\nb. longer\n\nc. shorter\n\n6 . In the example programs above, what syntax required by Java is not required by Python?\n\na. semicolons\n\nb. parentheses\n\nc. quote marks\n\nFavorite song\nThe program below asks for your name and displays a friendly greeting. Run the program and see what happens. In the error message, EOF stands for End of File.\n\n• Many of the programs in this chapter expect input from the user. Enter your name in the Input box below the code. Run the program again, and see what changes."
+        },
+        {
+          "chunk_id": "openstax-py-ch01_p07_para_01",
+          "char_count": 792,
+          "text": "[Favorite song] • Copy the following lines to the end of the program: song = input() print(\"Cool! I like\", song, \"too.\") print(\"What is your favorite song?\") song = input() print(\"Cool! I like\", song, \"too.\")\n\n• The modified program reads two lines of input: name and song. Add your favorite song to the Input box below your name, and run the program again.\n\nThe next section of the book will explain how print() and input() work. Feel free to experiment with this code until you are ready to move on. Access multimedia content (http://openstax.org/books/introduction-python-programming/pages/ 1-1-background)\n\n1.2 Input/output\n\nLearning objectives\n\nBy the end of this section you should be able to\n• Display output using the print() function.\n\n• Obtain user input using the input() function."
+        },
+        {
+          "chunk_id": "openstax-py-ch01_p07_para_02",
+          "char_count": 232,
+          "text": "Basic output\nThe print() function displays output to the user. Output is the information or result produced by a program.\n\nThe sep and end options can be used to customize the output. Table 1.1 shows examples of sep and end.\n\nTRY IT"
+        }
+      ],
+      "C": [
+        {
+          "chunk_id": "openstax-py-ch01_p07_para_00",
+          "char_count": 614,
+          "text": "CONCEPTS IN PRACTICE\n\nPython vs Java syntax\n5 . In general, Python programs are _____ than Java programs.\n\na. faster\n\nb. longer\n\nc. shorter\n\n6 . In the example programs above, what syntax required by Java is not required by Python?\n\na. semicolons\n\nb. parentheses\n\nc. quote marks\n\nFavorite song\nThe program below asks for your name and displays a friendly greeting. Run the program and see what happens. In the error message, EOF stands for End of File.\n\n• Many of the programs in this chapter expect input from the user. Enter your name in the Input box below the code. Run the program again, and see what changes."
+        },
+        {
+          "chunk_id": "openstax-py-ch01_p07_para_01",
+          "char_count": 792,
+          "text": "[Favorite song] • Copy the following lines to the end of the program: song = input() print(\"Cool! I like\", song, \"too.\") print(\"What is your favorite song?\") song = input() print(\"Cool! I like\", song, \"too.\")\n\n• The modified program reads two lines of input: name and song. Add your favorite song to the Input box below your name, and run the program again.\n\nThe next section of the book will explain how print() and input() work. Feel free to experiment with this code until you are ready to move on. Access multimedia content (http://openstax.org/books/introduction-python-programming/pages/ 1-1-background)\n\n1.2 Input/output\n\nLearning objectives\n\nBy the end of this section you should be able to\n• Display output using the print() function.\n\n• Obtain user input using the input() function."
+        },
+        {
+          "chunk_id": "openstax-py-ch01_p07_para_02",
+          "char_count": 232,
+          "text": "Basic output\nThe print() function displays output to the user. Output is the information or result produced by a program.\n\nThe sep and end options can be used to customize the output. Table 1.1 shows examples of sep and end.\n\nTRY IT"
+        }
+      ]
+    }
+  },
+  {
+    "document_id": "openstax-py-ch01",
+    "page": 8,
+    "chunks_by_strategy": {
+      "A": [
+        {
+          "chunk_id": "openstax-py-ch01_p08_fix_00",
+          "char_count": 500,
+          "text": "Multiple values, separated by commas, can be printed in the same statement. By default, each value is separated by a space character in the output. The sep option can be used to change this behavior.\n\nBy default, the print() function adds a newline character at the end of the output. A newline character tells the display to move to the next line. The end option can be used to continue printing on the same line.\n\nCode Output\n\nprint(\"Today is Monday.\") print(\"I like string beans.\") Today is Monday"
+        },
+        {
+          "chunk_id": "openstax-py-ch01_p08_fix_01",
+          "char_count": 500,
+          "text": "y.\") print(\"I like string beans.\") Today is Monday. I like string beans. print(\"Today\", \"is\", \"Monday\") print(\"Today\", \"is\", \"Monday\", sep=\"...\")\n\nToday is Monday\n\nToday...is...Monday print(\"Today is Monday, \", end=\"\") print(\"I like string beans.\")\n\nToday is Monday, I like string\n\nbeans. print(\"Today\", \"is\", \"Monday\", sep=\"? \", end=\"!!\") print(\"I like string beans.\") Today? is? Monday!!I like string beans. Table 1.1 Example uses of print().\n\nCHECKPOINT\n\nDisplaying output to the user\n\n1 3 1 Displ"
+        },
+        {
+          "chunk_id": "openstax-py-ch01_p08_fix_02",
+          "char_count": 500,
+          "text": "KPOINT\n\nDisplaying output to the user\n\n1 3 1 Displaying output to the user (https://www.openstax.org/r/displaying-output)\n\nCONCEPTS IN PRACTICE\n\nThe print() function\n\n1 . Which line of code prints Hello world! as one line of output?\n\na. print(Hello world!)\n\nb. print(\"Hello\", \"world\", \"!\")\n\nc. print(\"Hello world!\")\n\n2 . Which lines of code prints Hello world! as one line of output?\n\na. print(\"Hello\") print(\" world!\")\n\nb. print(\"Hello\") print(\" world!\", end=\"\")\n\nc. print(\"Hello\", end=\"\") print(\" w"
+        },
+        {
+          "chunk_id": "openstax-py-ch01_p08_fix_03",
+          "char_count": 137,
+          "text": "ld!\", end=\"\")\n\nc. print(\"Hello\", end=\"\") print(\" world!\")\n\n3 . What output is produced by the following statement?\n\n1.2 • Input/output 11"
+        }
+      ],
+      "B": [
+        {
+          "chunk_id": "openstax-py-ch01_p08_para_00",
+          "char_count": 696,
+          "text": "Multiple values, separated by commas, can be printed in the same statement. By default, each value is separated by a space character in the output. The sep option can be used to change this behavior.\n\nBy default, the print() function adds a newline character at the end of the output. A newline character tells the display to move to the next line. The end option can be used to continue printing on the same line.\n\nCode Output\nprint(\"Today is Monday.\") print(\"I like string beans.\") Today is Monday. I like string beans. print(\"Today\", \"is\", \"Monday\") print(\"Today\", \"is\", \"Monday\", sep=\"...\")\n\nToday is Monday\nToday...is...Monday print(\"Today is Monday, \", end=\"\") print(\"I like string beans.\")"
+        },
+        {
+          "chunk_id": "openstax-py-ch01_p08_para_01",
+          "char_count": 784,
+          "text": "Today is Monday, I like string\nbeans. print(\"Today\", \"is\", \"Monday\", sep=\"? \", end=\"!!\") print(\"I like string beans.\") Today? is? Monday!!I like string beans. Table 1.1 Example uses of print().\n\nCHECKPOINT\n\nDisplaying output to the user\n1 3 1 Displaying output to the user (https://www.openstax.org/r/displaying-output)\n\nCONCEPTS IN PRACTICE\n\nThe print() function\n1 . Which line of code prints Hello world! as one line of output?\n\na. print(Hello world!)\n\nb. print(\"Hello\", \"world\", \"!\")\n\nc. print(\"Hello world!\")\n\n2 . Which lines of code prints Hello world! as one line of output?\n\na. print(\"Hello\") print(\" world!\")\n\nb. print(\"Hello\") print(\" world!\", end=\"\")\n\nc. print(\"Hello\", end=\"\") print(\" world!\")\n\n3 . What output is produced by the following statement?\n\n1.2 • Input/output 11"
+        }
+      ],
+      "C": [
+        {
+          "chunk_id": "openstax-py-ch01_p08_para_00",
+          "char_count": 696,
+          "text": "Multiple values, separated by commas, can be printed in the same statement. By default, each value is separated by a space character in the output. The sep option can be used to change this behavior.\n\nBy default, the print() function adds a newline character at the end of the output. A newline character tells the display to move to the next line. The end option can be used to continue printing on the same line.\n\nCode Output\nprint(\"Today is Monday.\") print(\"I like string beans.\") Today is Monday. I like string beans. print(\"Today\", \"is\", \"Monday\") print(\"Today\", \"is\", \"Monday\", sep=\"...\")\n\nToday is Monday\nToday...is...Monday print(\"Today is Monday, \", end=\"\") print(\"I like string beans.\")"
+        },
+        {
+          "chunk_id": "openstax-py-ch01_p08_para_01",
+          "char_count": 784,
+          "text": "Today is Monday, I like string\nbeans. print(\"Today\", \"is\", \"Monday\", sep=\"? \", end=\"!!\") print(\"I like string beans.\") Today? is? Monday!!I like string beans. Table 1.1 Example uses of print().\n\nCHECKPOINT\n\nDisplaying output to the user\n1 3 1 Displaying output to the user (https://www.openstax.org/r/displaying-output)\n\nCONCEPTS IN PRACTICE\n\nThe print() function\n1 . Which line of code prints Hello world! as one line of output?\n\na. print(Hello world!)\n\nb. print(\"Hello\", \"world\", \"!\")\n\nc. print(\"Hello world!\")\n\n2 . Which lines of code prints Hello world! as one line of output?\n\na. print(\"Hello\") print(\" world!\")\n\nb. print(\"Hello\") print(\" world!\", end=\"\")\n\nc. print(\"Hello\", end=\"\") print(\" world!\")\n\n3 . What output is produced by the following statement?\n\n1.2 • Input/output 11"
+        }
+      ]
+    }
+  },
+  {
+    "document_id": "openstax-py-ch01",
+    "page": 9,
+    "chunks_by_strategy": {
+      "A": [
+        {
+          "chunk_id": "openstax-py-ch01_p09_fix_00",
+          "char_count": 500,
+          "text": "print(\"555\", \"0123\", sep=\"-\")\n\na. 555 0123\n\nb. 5550123-\n\nc. 555-0123 DO SPACES REALLY MATTER? Spaces and newline characters are not inherently important. However, learning to be precise is an essential skill for programming. Noticing little details, like how words are separated and how lines end, helps new programmers become better.\n\nBasic input\n\nComputer programs often receive input from the user. Input is what a user enters into a program. An input statement, variable = input(\"prompt\"), has th"
+        },
+        {
+          "chunk_id": "openstax-py-ch01_p09_fix_01",
+          "char_count": 500,
+          "text": "nput statement, variable = input(\"prompt\"), has three parts: 1. A variable refers to a value stored in memory. In the statement above, variable can be replaced with any name the programmer chooses. 2. The input() function reads one line of input from the user. A function is a named, reusable block of code that performs a task when called. The input is stored in the computer's memory and can be accessed later using the variable. 3. A prompt is a short message that indicates the program is waiting"
+        },
+        {
+          "chunk_id": "openstax-py-ch01_p09_fix_02",
+          "char_count": 500,
+          "text": "hort message that indicates the program is waiting for input. In the statement above, \"prompt\" can be omitted or replaced with any message.\n\nCHECKPOINT\n\nObtaining input from the user\n\nDisplaying output to the user; ch 1, video 3 (https://www.openstax.org/r/obtaining-input)\n\nCONCEPTS IN PRACTICE\n\nThe input() function\n\n4 . Which line of code correctly obtains and stores user input?\n\na. input()\n\nb. today_is = input\n\nc. today_is = input()\n\n5 . Someone named Sophia enters their name when prompted wit"
+        },
+        {
+          "chunk_id": "openstax-py-ch01_p09_fix_03",
+          "char_count": 172,
+          "text": "e named Sophia enters their name when prompted with print(\"Please enter your name: \") name = input() What is displayed by print(\"You entered:\", name)?\n\na. You entered: name"
+        }
+      ],
+      "B": [
+        {
+          "chunk_id": "openstax-py-ch01_p09_para_00",
+          "char_count": 333,
+          "text": "print(\"555\", \"0123\", sep=\"-\")\na. 555 0123\n\nb. 5550123-\n\nc. 555-0123 DO SPACES REALLY MATTER? Spaces and newline characters are not inherently important. However, learning to be precise is an essential skill for programming. Noticing little details, like how words are separated and how lines end, helps new programmers become better."
+        },
+        {
+          "chunk_id": "openstax-py-ch01_p09_para_01",
+          "char_count": 714,
+          "text": "Basic input\nComputer programs often receive input from the user. Input is what a user enters into a program. An input statement, variable = input(\"prompt\"), has three parts: 1. A variable refers to a value stored in memory. In the statement above, variable can be replaced with any name the programmer chooses. 2. The input() function reads one line of input from the user. A function is a named, reusable block of code that performs a task when called. The input is stored in the computer's memory and can be accessed later using the variable. 3. A prompt is a short message that indicates the program is waiting for input. In the statement above, \"prompt\" can be omitted or replaced with any message.\n\nCHECKPOINT"
+        },
+        {
+          "chunk_id": "openstax-py-ch01_p09_para_02",
+          "char_count": 467,
+          "text": "Obtaining input from the user\nDisplaying output to the user; ch 1, video 3 (https://www.openstax.org/r/obtaining-input)\n\nCONCEPTS IN PRACTICE\n\nThe input() function\n4 . Which line of code correctly obtains and stores user input?\n\na. input()\n\nb. today_is = input\n\nc. today_is = input()\n\n5 . Someone named Sophia enters their name when prompted with print(\"Please enter your name: \") name = input() What is displayed by print(\"You entered:\", name)?\n\na. You entered: name"
+        }
+      ],
+      "C": [
+        {
+          "chunk_id": "openstax-py-ch01_p09_para_00",
+          "char_count": 333,
+          "text": "print(\"555\", \"0123\", sep=\"-\")\na. 555 0123\n\nb. 5550123-\n\nc. 555-0123 DO SPACES REALLY MATTER? Spaces and newline characters are not inherently important. However, learning to be precise is an essential skill for programming. Noticing little details, like how words are separated and how lines end, helps new programmers become better."
+        },
+        {
+          "chunk_id": "openstax-py-ch01_p09_para_01",
+          "char_count": 714,
+          "text": "Basic input\nComputer programs often receive input from the user. Input is what a user enters into a program. An input statement, variable = input(\"prompt\"), has three parts: 1. A variable refers to a value stored in memory. In the statement above, variable can be replaced with any name the programmer chooses. 2. The input() function reads one line of input from the user. A function is a named, reusable block of code that performs a task when called. The input is stored in the computer's memory and can be accessed later using the variable. 3. A prompt is a short message that indicates the program is waiting for input. In the statement above, \"prompt\" can be omitted or replaced with any message.\n\nCHECKPOINT"
+        },
+        {
+          "chunk_id": "openstax-py-ch01_p09_para_02",
+          "char_count": 467,
+          "text": "Obtaining input from the user\nDisplaying output to the user; ch 1, video 3 (https://www.openstax.org/r/obtaining-input)\n\nCONCEPTS IN PRACTICE\n\nThe input() function\n4 . Which line of code correctly obtains and stores user input?\n\na. input()\n\nb. today_is = input\n\nc. today_is = input()\n\n5 . Someone named Sophia enters their name when prompted with print(\"Please enter your name: \") name = input() What is displayed by print(\"You entered:\", name)?\n\na. You entered: name"
+        }
+      ]
+    }
+  },
+  {
+    "document_id": "openstax-py-ch01",
+    "page": 10,
+    "chunks_by_strategy": {
+      "A": [
+        {
+          "chunk_id": "openstax-py-ch01_p10_fix_00",
+          "char_count": 500,
+          "text": "b. You entered: Sophia\n\nc. You entered:, Sophia\n\n6 . What is the output if the user enters \"six\" as the input?\n\nprint(\"Please enter a number: \") number = input() print(\"Value =\", number)\n\na. Value = six\n\nb. Value = 6\n\nc. Value = number\n\nFrost poem\n\nWrite a program that uses multiple print() statements to output the following poem by Robert Frost (https://openstax.org/r/100robertfrost). Each print() statement should correspond to one line of output.\n\nTip: You don't need to write the entire progra"
+        },
+        {
+          "chunk_id": "openstax-py-ch01_p10_fix_01",
+          "char_count": 500,
+          "text": "t.\n\nTip: You don't need to write the entire program all at once. Try writing the first print() statement, and then click the Run button. Then write the next print() statement, and click the Run button again.\n\nContinue writing and testing the code incrementally until you finish the program.\n\nI shall be telling this with a sigh\n\nSomewhere ages and ages hence:\n\nTwo roads diverged in a wood, and I--\n\nI took the one less traveled by, And that has made all the difference. Access multimedia content (ht"
+        },
+        {
+          "chunk_id": "openstax-py-ch01_p10_fix_02",
+          "char_count": 499,
+          "text": "all the difference. Access multimedia content (http://openstax.org/books/introduction-python-programming/pages/1-2-inputoutput)\n\nName and likes\n\nWrite a program that asks the following two questions (example input in bold): What is your name? Shakira What do you like? singing Output a blank line after reading the input. Then output the following message based on the input:\n\nShakira likes singing\n\nAccess multimedia content (http://openstax.org/books/introduction-python-programming/pages/1-2-inpu"
+        },
+        {
+          "chunk_id": "openstax-py-ch01_p10_fix_03",
+          "char_count": 88,
+          "text": "oks/introduction-python-programming/pages/1-2-inputTRY IT\n\nTRY IT\n\n1.2 • Input/output 13"
+        }
+      ],
+      "B": [
+        {
+          "chunk_id": "openstax-py-ch01_p10_para_00",
+          "char_count": 739,
+          "text": "b. You entered: Sophia\n\nc. You entered:, Sophia\n\n6 . What is the output if the user enters \"six\" as the input?\n\nprint(\"Please enter a number: \") number = input() print(\"Value =\", number)\n\na. Value = six\n\nb. Value = 6\n\nc. Value = number\n\nFrost poem\nWrite a program that uses multiple print() statements to output the following poem by Robert Frost (https://openstax.org/r/100robertfrost). Each print() statement should correspond to one line of output.\n\nTip: You don't need to write the entire program all at once. Try writing the first print() statement, and then click the Run button. Then write the next print() statement, and click the Run button again.\n\nContinue writing and testing the code incrementally until you finish the program."
+        },
+        {
+          "chunk_id": "openstax-py-ch01_p10_para_01",
+          "char_count": 692,
+          "text": "I shall be telling this with a sigh\nSomewhere ages and ages hence:\n\nTwo roads diverged in a wood, and I--\nI took the one less traveled by, And that has made all the difference. Access multimedia content (http://openstax.org/books/introduction-python-programming/pages/1-2-inputoutput)\n\nName and likes\nWrite a program that asks the following two questions (example input in bold): What is your name? Shakira What do you like? singing Output a blank line after reading the input. Then output the following message based on the input:\n\nShakira likes singing\nAccess multimedia content (http://openstax.org/books/introduction-python-programming/pages/1-2-inputTRY IT\n\nTRY IT\n\n1.2 • Input/output 13"
+        }
+      ],
+      "C": [
+        {
+          "chunk_id": "openstax-py-ch01_p10_para_00",
+          "char_count": 739,
+          "text": "b. You entered: Sophia\n\nc. You entered:, Sophia\n\n6 . What is the output if the user enters \"six\" as the input?\n\nprint(\"Please enter a number: \") number = input() print(\"Value =\", number)\n\na. Value = six\n\nb. Value = 6\n\nc. Value = number\n\nFrost poem\nWrite a program that uses multiple print() statements to output the following poem by Robert Frost (https://openstax.org/r/100robertfrost). Each print() statement should correspond to one line of output.\n\nTip: You don't need to write the entire program all at once. Try writing the first print() statement, and then click the Run button. Then write the next print() statement, and click the Run button again.\n\nContinue writing and testing the code incrementally until you finish the program."
+        },
+        {
+          "chunk_id": "openstax-py-ch01_p10_para_01",
+          "char_count": 692,
+          "text": "I shall be telling this with a sigh\nSomewhere ages and ages hence:\n\nTwo roads diverged in a wood, and I--\nI took the one less traveled by, And that has made all the difference. Access multimedia content (http://openstax.org/books/introduction-python-programming/pages/1-2-inputoutput)\n\nName and likes\nWrite a program that asks the following two questions (example input in bold): What is your name? Shakira What do you like? singing Output a blank line after reading the input. Then output the following message based on the input:\n\nShakira likes singing\nAccess multimedia content (http://openstax.org/books/introduction-python-programming/pages/1-2-inputTRY IT\n\nTRY IT\n\n1.2 • Input/output 13"
+        }
+      ]
+    }
+  },
+  {
+    "document_id": "openstax-py-ch01",
+    "page": 11,
+    "chunks_by_strategy": {
+      "A": [
+        {
+          "chunk_id": "openstax-py-ch01_p11_fix_00",
+          "char_count": 500,
+          "text": "output)\n\n1.3 Variables\n\nLearning objectives\n\nBy the end of this section you should be able to\n\n• Assign variables and print variables.\n\n• Explain rules for naming variables.\n\nAssignment statement\n\nVariables allow programs to refer to values using names rather than memory locations. Ex: age refers to a person's age, and birth refers to a person's date of birth.\n\nA statement can set a variable to a value using the assignment operator (=). Note that this is different from the equal sign of mathemat"
+        },
+        {
+          "chunk_id": "openstax-py-ch01_p11_fix_01",
+          "char_count": 497,
+          "text": "this is different from the equal sign of mathematics. Ex: age = 6 or birth = \"May 15\". The left side of the assignment statement is a variable, and the right side is the value the variable is assigned.\n\nCHECKPOINT\n\nAssigning and using variables\n\nAssigning and using variables; ch 1, video 5 (https://www.openstax.org/r/using-variables)\n\nCONCEPTS IN PRACTICE\n\nAssigning and using variables\n\n1 . Which line of code correctly retrieves the value of the variable, city, after the following assignment?"
+        },
+        {
+          "chunk_id": "openstax-py-ch01_p11_fix_02",
+          "char_count": 445,
+          "text": "variable, city, after the following assignment?\n\ncity = \"Chicago\"\n\na. print(\"In which city do you live?\")\n\nb. city = \"London\"\n\nc. print(\"The city where you live is\", city)\n\n2 . Which program stores and retrieves a variable correctly?\n\na. print(\"Total =\", total) total = 6\n\nb. total = 6 print(\"Total =\", total)\n\nc. print(\"Total =\", total) total = input()\n\n3 . Which is the assignment operator?\n\na. :\n\nb. ==\n\nc. =\n\n4 . Which is a valid assignment?"
+        }
+      ],
+      "B": [
+        {
+          "chunk_id": "openstax-py-ch01_p11_para_00",
+          "char_count": 783,
+          "text": "output)\n\n1.3 Variables\n\nLearning objectives\n\nBy the end of this section you should be able to\n• Assign variables and print variables.\n\n• Explain rules for naming variables.\n\nAssignment statement\nVariables allow programs to refer to values using names rather than memory locations. Ex: age refers to a person's age, and birth refers to a person's date of birth.\n\nA statement can set a variable to a value using the assignment operator (=). Note that this is different from the equal sign of mathematics. Ex: age = 6 or birth = \"May 15\". The left side of the assignment statement is a variable, and the right side is the value the variable is assigned.\n\nCHECKPOINT\n\nAssigning and using variables\nAssigning and using variables; ch 1, video 5 (https://www.openstax.org/r/using-variables)"
+        },
+        {
+          "chunk_id": "openstax-py-ch01_p11_para_01",
+          "char_count": 556,
+          "text": "CONCEPTS IN PRACTICE\n\nAssigning and using variables\n1 . Which line of code correctly retrieves the value of the variable, city, after the following assignment?\n\ncity = \"Chicago\"\na. print(\"In which city do you live?\")\n\nb. city = \"London\"\n\nc. print(\"The city where you live is\", city)\n\n2 . Which program stores and retrieves a variable correctly?\n\na. print(\"Total =\", total) total = 6\n\nb. total = 6 print(\"Total =\", total)\n\nc. print(\"Total =\", total) total = input()\n\n3 . Which is the assignment operator?\n\na. :\n\nb. ==\n\nc. =\n\n4 . Which is a valid assignment?"
+        }
+      ],
+      "C": [
+        {
+          "chunk_id": "openstax-py-ch01_p11_para_00",
+          "char_count": 783,
+          "text": "output)\n\n1.3 Variables\n\nLearning objectives\n\nBy the end of this section you should be able to\n• Assign variables and print variables.\n\n• Explain rules for naming variables.\n\nAssignment statement\nVariables allow programs to refer to values using names rather than memory locations. Ex: age refers to a person's age, and birth refers to a person's date of birth.\n\nA statement can set a variable to a value using the assignment operator (=). Note that this is different from the equal sign of mathematics. Ex: age = 6 or birth = \"May 15\". The left side of the assignment statement is a variable, and the right side is the value the variable is assigned.\n\nCHECKPOINT\n\nAssigning and using variables\nAssigning and using variables; ch 1, video 5 (https://www.openstax.org/r/using-variables)"
+        },
+        {
+          "chunk_id": "openstax-py-ch01_p11_para_01",
+          "char_count": 556,
+          "text": "CONCEPTS IN PRACTICE\n\nAssigning and using variables\n1 . Which line of code correctly retrieves the value of the variable, city, after the following assignment?\n\ncity = \"Chicago\"\na. print(\"In which city do you live?\")\n\nb. city = \"London\"\n\nc. print(\"The city where you live is\", city)\n\n2 . Which program stores and retrieves a variable correctly?\n\na. print(\"Total =\", total) total = 6\n\nb. total = 6 print(\"Total =\", total)\n\nc. print(\"Total =\", total) total = input()\n\n3 . Which is the assignment operator?\n\na. :\n\nb. ==\n\nc. =\n\n4 . Which is a valid assignment?"
+        }
+      ]
+    }
+  },
+  {
+    "document_id": "openstax-py-ch01",
+    "page": 12,
+    "chunks_by_strategy": {
+      "A": [
+        {
+          "chunk_id": "openstax-py-ch01_p12_fix_00",
+          "char_count": 500,
+          "text": "a. temperature = 98.5\n\nb. 98.5 = temperature\n\nc. temperature - 23.2\n\nVariable naming rules\n\nA variable name can consist of letters, digits, and underscores and be of any length. The name cannot start with a digit. Ex: 101class is invalid. Also, letter case matters. Ex: Total is different from total. Python's style guide recommends writing variable names in snake case, which is all lowercase with underscores in between each word, such as first_name or total_price. A name should be short and descr"
+        },
+        {
+          "chunk_id": "openstax-py-ch01_p12_fix_01",
+          "char_count": 500,
+          "text": "e or total_price. A name should be short and descriptive, so words are preferred over single characters in programs for readability. Ex: A variable named count indicates the variable's purpose better than a variable named c.\n\nPython has reserved words, known as keywords, which have special functions and cannot be used as names for variables (or other objects).\n\nFalse await else import pass\n\nNone break except in raise\n\nTrue class finally is return\n\nand continue for lambda try as def from nonlocal"
+        },
+        {
+          "chunk_id": "openstax-py-ch01_p12_fix_02",
+          "char_count": 473,
+          "text": "and continue for lambda try as def from nonlocal while assert del global not with asynch elif if or yield Table 1.2 Keywords\n\nCONCEPTS IN PRACTICE\n\nValid variable names\n\n5 . Which can be used as a variable name?\n\na. median\n\nb. class\n\nc. import\n\n6 . Why is the name, 2nd_input, not a valid variable name?\n\na. contains an underscore\n\nb. starts with a digit\n\nc. is a keyword\n\n7 . Which would be a good name for a variable storing a zip code?\n\na. z\n\nb. var_2 1.3 • Variables 15"
+        }
+      ],
+      "B": [
+        {
+          "chunk_id": "openstax-py-ch01_p12_para_00",
+          "char_count": 673,
+          "text": "a. temperature = 98.5\n\nb. 98.5 = temperature\n\nc. temperature - 23.2\n\nVariable naming rules\nA variable name can consist of letters, digits, and underscores and be of any length. The name cannot start with a digit. Ex: 101class is invalid. Also, letter case matters. Ex: Total is different from total. Python's style guide recommends writing variable names in snake case, which is all lowercase with underscores in between each word, such as first_name or total_price. A name should be short and descriptive, so words are preferred over single characters in programs for readability. Ex: A variable named count indicates the variable's purpose better than a variable named c."
+        },
+        {
+          "chunk_id": "openstax-py-ch01_p12_para_01",
+          "char_count": 721,
+          "text": "[Variable naming rules] Python has reserved words, known as keywords, which have special functions and cannot be used as names for variables (or other objects).\n\nFalse await else import pass\n\nNone break except in raise\n\nTrue class finally is return\nand continue for lambda try as def from nonlocal while assert del global not with asynch elif if or yield Table 1.2 Keywords\n\nCONCEPTS IN PRACTICE\n\nValid variable names\n5 . Which can be used as a variable name?\n\na. median\n\nb. class\n\nc. import\n\n6 . Why is the name, 2nd_input, not a valid variable name?\n\na. contains an underscore\n\nb. starts with a digit\n\nc. is a keyword\n\n7 . Which would be a good name for a variable storing a zip code?\n\na. z\n\nb. var_2 1.3 • Variables 15"
+        }
+      ],
+      "C": [
+        {
+          "chunk_id": "openstax-py-ch01_p12_para_00",
+          "char_count": 673,
+          "text": "a. temperature = 98.5\n\nb. 98.5 = temperature\n\nc. temperature - 23.2\n\nVariable naming rules\nA variable name can consist of letters, digits, and underscores and be of any length. The name cannot start with a digit. Ex: 101class is invalid. Also, letter case matters. Ex: Total is different from total. Python's style guide recommends writing variable names in snake case, which is all lowercase with underscores in between each word, such as first_name or total_price. A name should be short and descriptive, so words are preferred over single characters in programs for readability. Ex: A variable named count indicates the variable's purpose better than a variable named c."
+        },
+        {
+          "chunk_id": "openstax-py-ch01_p12_para_01",
+          "char_count": 721,
+          "text": "[Variable naming rules] Python has reserved words, known as keywords, which have special functions and cannot be used as names for variables (or other objects).\n\nFalse await else import pass\n\nNone break except in raise\n\nTrue class finally is return\nand continue for lambda try as def from nonlocal while assert del global not with asynch elif if or yield Table 1.2 Keywords\n\nCONCEPTS IN PRACTICE\n\nValid variable names\n5 . Which can be used as a variable name?\n\na. median\n\nb. class\n\nc. import\n\n6 . Why is the name, 2nd_input, not a valid variable name?\n\na. contains an underscore\n\nb. starts with a digit\n\nc. is a keyword\n\n7 . Which would be a good name for a variable storing a zip code?\n\na. z\n\nb. var_2 1.3 • Variables 15"
+        }
+      ]
+    }
+  },
+  {
+    "document_id": "openstax-py-ch01",
+    "page": 13,
+    "chunks_by_strategy": {
+      "A": [
+        {
+          "chunk_id": "openstax-py-ch01_p13_fix_00",
+          "char_count": 500,
+          "text": "c. zip_code\n\n8 . Given the variable name, DogBreed, which improvement conforms to Python's style guide?\n\na. dog_breed\n\nb. dogBreed\n\nc. dog-breed\n\nFinal score\n\nWrite a Python computer program that:\n\n• Creates a variable, team1, assigned with the value \"Liverpool\".\n\n• Creates a variable, team2, assigned with the value \"Chelsea\".\n\n• Creates a variable score1, assigned with the value 4.\n\n• Creates a variable, score2, assigned with the value 3.\n\n• Prints team1, \"versus\", and team2 as a single line of"
+        },
+        {
+          "chunk_id": "openstax-py-ch01_p13_fix_01",
+          "char_count": 500,
+          "text": "nts team1, \"versus\", and team2 as a single line of output.\n\n• Prints \"Final score: \", score1, \"to\", score2 as a single line of output.\n\nAccess multimedia content (http://openstax.org/books/introduction-python-programming/pages/ 1-3-variables)\n\n1.4 String basics\n\nLearning objectives\n\nBy the end of this section you should be able to\n\n• Use the built-in len() function to get a string's length.\n\n• Concatenate string literals and variables using the + operator.\n\nQuote marks\n\nA string is a sequence of"
+        },
+        {
+          "chunk_id": "openstax-py-ch01_p13_fix_02",
+          "char_count": 499,
+          "text": "operator.\n\nQuote marks\n\nA string is a sequence of characters enclosed by matching single (') or double (\") quotes. Ex: \"Happy birthday!\" and '21' are both strings. To include a single quote (') in a string, enclose the string with matching double quotes (\"). Ex: \"Won't this work?\" To include a double quote (\"), enclose the string with matching single quotes ('). Ex: 'They said \"Try it!\", so I did'.\n\nValid string Invalid string\n\n\"17\" or '17' 17 \"seventeen\" or 'seventeen' seventeen \"Where?\" or 'W"
+        },
+        {
+          "chunk_id": "openstax-py-ch01_p13_fix_03",
+          "char_count": 102,
+          "text": "seventeen\" or 'seventeen' seventeen \"Where?\" or 'Where?' \"Where?' Table 1.3 Rules for strings.\n\nTRY IT"
+        }
+      ],
+      "B": [
+        {
+          "chunk_id": "openstax-py-ch01_p13_para_00",
+          "char_count": 731,
+          "text": "c. zip_code\n\n8 . Given the variable name, DogBreed, which improvement conforms to Python's style guide?\n\na. dog_breed\n\nb. dogBreed\n\nc. dog-breed\n\nFinal score\nWrite a Python computer program that:\n\n• Creates a variable, team1, assigned with the value \"Liverpool\".\n\n• Creates a variable, team2, assigned with the value \"Chelsea\".\n\n• Creates a variable score1, assigned with the value 4.\n\n• Creates a variable, score2, assigned with the value 3.\n\n• Prints team1, \"versus\", and team2 as a single line of output.\n\n• Prints \"Final score: \", score1, \"to\", score2 as a single line of output.\n\nAccess multimedia content (http://openstax.org/books/introduction-python-programming/pages/ 1-3-variables)\n\n1.4 String basics\n\nLearning objectives"
+        },
+        {
+          "chunk_id": "openstax-py-ch01_p13_para_01",
+          "char_count": 715,
+          "text": "By the end of this section you should be able to\n• Use the built-in len() function to get a string's length.\n\n• Concatenate string literals and variables using the + operator.\n\nQuote marks\nA string is a sequence of characters enclosed by matching single (') or double (\") quotes. Ex: \"Happy birthday!\" and '21' are both strings. To include a single quote (') in a string, enclose the string with matching double quotes (\"). Ex: \"Won't this work?\" To include a double quote (\"), enclose the string with matching single quotes ('). Ex: 'They said \"Try it!\", so I did'.\n\nValid string Invalid string\n\"17\" or '17' 17 \"seventeen\" or 'seventeen' seventeen \"Where?\" or 'Where?' \"Where?' Table 1.3 Rules for strings.\n\nTRY IT"
+        }
+      ],
+      "C": [
+        {
+          "chunk_id": "openstax-py-ch01_p13_para_00",
+          "char_count": 731,
+          "text": "c. zip_code\n\n8 . Given the variable name, DogBreed, which improvement conforms to Python's style guide?\n\na. dog_breed\n\nb. dogBreed\n\nc. dog-breed\n\nFinal score\nWrite a Python computer program that:\n\n• Creates a variable, team1, assigned with the value \"Liverpool\".\n\n• Creates a variable, team2, assigned with the value \"Chelsea\".\n\n• Creates a variable score1, assigned with the value 4.\n\n• Creates a variable, score2, assigned with the value 3.\n\n• Prints team1, \"versus\", and team2 as a single line of output.\n\n• Prints \"Final score: \", score1, \"to\", score2 as a single line of output.\n\nAccess multimedia content (http://openstax.org/books/introduction-python-programming/pages/ 1-3-variables)\n\n1.4 String basics\n\nLearning objectives"
+        },
+        {
+          "chunk_id": "openstax-py-ch01_p13_para_01",
+          "char_count": 715,
+          "text": "By the end of this section you should be able to\n• Use the built-in len() function to get a string's length.\n\n• Concatenate string literals and variables using the + operator.\n\nQuote marks\nA string is a sequence of characters enclosed by matching single (') or double (\") quotes. Ex: \"Happy birthday!\" and '21' are both strings. To include a single quote (') in a string, enclose the string with matching double quotes (\"). Ex: \"Won't this work?\" To include a double quote (\"), enclose the string with matching single quotes ('). Ex: 'They said \"Try it!\", so I did'.\n\nValid string Invalid string\n\"17\" or '17' 17 \"seventeen\" or 'seventeen' seventeen \"Where?\" or 'Where?' \"Where?' Table 1.3 Rules for strings.\n\nTRY IT"
+        }
+      ]
+    }
+  }
+]
